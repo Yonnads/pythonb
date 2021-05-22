@@ -1,0 +1,61 @@
+Apuntes clase 7 
+Secuencias: cadenas y listas
+tabla ascci
+
+range es una secuencia, por lo que se puede convertir a tupla o lista
+se puede empaquetar y desempaquetar a la vez:
+ej: a,b = b, a
+
+función Enumerate
+recibe una secuencia y devuelve una secuencia de tuplas el primero es un entero 
+y el segundo un elemento de la secuencia original. Para ver lo que tiene hay que 
+convertirlo a lista. 
+
+Index
+recibe una secuencia y devuelve el nro entero (posicion) del elemento bucado. 
+para saber si esta usamos IN
+<?> in <secuencia> esto devuelve una expresión booleana. 
+
+SPLIT Y JOIN 
+separan y juntan cadenas
+EJ: 
+>>>fecha='08-05-2020'
+>>>partes = fecha.split('-')
+['08,'05','2020']
+>>>'/'.join(partes)
+'08/05/2020'
+split separa, join junta(en la sintaxis de join se debe indicar primero el separador
+
+se puede pasar todo en una sola lina de codigo(RECOMENDADO)
+EJ: '/'.join(fecha.split('-'))
+
+copiar listas
+L = [1,2,3]
+L2 = L --> es la misma lista que L NO LA COPIA
+L3  = L[:] --> eSTO SI COPIA LISTAS, aca L y L3 son 2 listas diferentes 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

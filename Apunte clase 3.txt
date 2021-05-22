@@ -1,0 +1,124 @@
+apunte clase 3 
+
+----- Ingeniería de Software----
+Construcción de programas
+1) Análisis 
+En esta parte es necesario averguar bien qué es lo que el cliente desea, quizás sea necesario realizar una investigación. 
+En que dispositivo si quiere ocuparlo, si es una computadora o un telefono.
+
+
+2) Específicación
+Es determinar cómo vamos a resolver el programa: en qué plataforma, en que lenguaje vamos a realizar. 
+Si lo haremos en un celular o en una computadora.  
+
+3) Diseño
+La etapa del diseño es en la que diseñamos algoritmos, es decir, en la que pensamos cuales son los datos de entrada
+cuales son los de salida, como voy a hacer para que el programa funciones. Para esto usamos el pseudocódigo. 
+
+4) Implementación
+Es básicamente traducir el pseudocódigo a un código que funcione. 
+
+5)Pruebas 
+Es la esta en la que se evalúa el código, se lo analisa para corregir si existe un error antes de entregarlo. 
+Si existe un error( se denomina bug = imperfección en el software) 
+
+6) Mantenimiento
+Es la etapa en la que vamos a ir reparando el código fuente un programa, conforme los bug que vayan encontrando 
+los clientes. 
+
+Es necesario pensar las formas de romper el programa, para prepararlo y que el mismo no sea tan fácil de romper. 
+
+
+Calidad del Software
+--> Confiabilidad
+Un software es confiable cuando produce los resultados esperables. 
+--> Testabilidad
+ Es realizar pruebas para ver si el software tiene bugs o no. 
+Identificar formas fáciles de testear el programa. 
+Cuanto antes encuentro un bug es más fácil de mantener. 
+
+--> Perfomance 
+
+Es que el software utilice la menor cantidad de recursos(tiempo - espacio) posibles. 
+en la actualidad la memoria es muy barata por lo que se busca contruir programas que usen 
+poco tiempo.
+
+--->Usabilidad
+Que su uso sea sencillo
+
+---> Mantenibilidad 
+Es que el sotware sea facil de instalar y que su código sea fácil de modificar.
+
+--->Escalabilidad
+que el programa responda bien cuando posee mucha demanda. 
+
+--->Portabilidad
+Es el hecho de poder realizar programas que puedan ser utilizados en diferentes sistemas. 
+
+---> Seguridad
+Es importante que el software sea seguro para protegerse de los ataques informáticos. 
+
+Zen de Python 
+ir a la librería de python, buscar códigos de verdad para leer. Por ejemplo la librería random de python. 
+también se puede leer código en Github. 
+
+
+
+
+
+				----APUNTE CLASE 4----
+ Condiciones 
+If<expresión>: 
+  <instrucciones>
+<instrucción>
+<instrucción>
+
+Expresiones booleanas 
+Los datos de tipo bool (False and True) son unicamente dos. 
+
+a partir de esto aparecen los operadores de comparación:
+<expresión>==<expresión>
+<expresión> != <expresión>
+<expresión> < <expresión>
+<expresión> <= <expresión>
+<expresión> > <expresión>
+<expresión> >= <expresión>
+
+además aparecen los operadores lógicos:
+<expresión> and <expresión>
+<expresión> or <expresión>
+	not <expresión>
+
+Hay una variante del If que incluye Else 
+if    <expresión>:
+	<rama 1>
+else: 
+	<rama 2>
+
+Además hay una cariante de Else e If denominada Elif
+
+Conversión a booleano:
+Me devolverá false, si ingreso 0 o una cadena vacía o None
+Me devolverá True si ingreso cualquier Número o una expresión
+
+El or no devuelve True o False, sino que devuelve la primera expresión verdadera
+ej: 
+>>> "gato" or "perro"
+'gato' 
+>>>
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
