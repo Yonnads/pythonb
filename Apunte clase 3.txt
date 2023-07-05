@@ -104,7 +104,8 @@ Me devolverá True si ingreso cualquier Número o una expresión
 El or no devuelve True o False, sino que devuelve la primera expresión verdadera
 ej: 
 >>> "gato" or "perro"
-'gato' 
+'gato' "vaca"
+
 >>>
  
 
